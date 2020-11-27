@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubicanos!</title>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+</head>
+<body>
+    <%- include ('parcial/navegacion.html')%>
+    <br> 
+    <div class="container"  >
+        <div class="row" >
+          <div class="col-sm" >El café es un destino.
+           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14341.064737834471!2d-98.34170139999999!3d26.02484525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1606501363690!5m2!1ses-419!2smx" 
+    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+ 
+          </div>
+          <div class="col-sm" style="border-style: solid; background-color: rgb(207, 105, 64); border-color: rgb(116, 92, 92); border-radius: 5px;">En caso de buscar alguna reservacion o realizar un pedido, favor de llenar el siguiente formulario y resivira una respuesta la brevedad.
+            <br><br>
+            <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail4">Nombre</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Juan">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputPassword4">Apellido</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Rodriguez">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress">Correo</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="email">
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress2">Horario estimado</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="02:30 PM">
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputCity">Ciudad</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="inputState">Estado</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>Reynosa...</option>
+                      <option selected>Rio Bravo...</option>
+                      <option selected>Monterrey...</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-2">
+                    <label for="inputState">Cliente(s)</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>1</option>
+                      <option selected>2</option>
+                      <option selected>3</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                 
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Confirmacion de solicitud.
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Reservar</button>
+              </form>
+          </div>
+        </div>
+      </div>
+      <br>
+</body>
+
+
+
+<footer class="bg-dark text-left p-2 ">
+    <h4> Contactanos a nuestros numeros </h4>
+    <h7> 213458796  &  5487965234  <p style="text-align: right;"><i  class="fab fa-facebook-square fa-1x" ></i> <i class="fas fa-at fa-1x"></i> <i class="fab fa-twitter fa-1x"></i></p></h7>
+
+  <p class="text-center">Pews 2020 &copy;</p>
+  </footer>
+</html>
